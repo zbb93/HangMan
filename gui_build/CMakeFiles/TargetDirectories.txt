@@ -1,0 +1,3 @@
+/home/zbb/dev/cpp/HangMan/gui_build/CMakeFiles/hm_GUI_automoc.dir
+/home/zbb/dev/cpp/HangMan/gui_build/CMakeFiles/hm_GUI.dir
+/home/zbb/dev/cpp/HangMan/gui_build/CMakeFiles/HangMan.dir

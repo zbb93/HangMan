@@ -1,0 +1,29 @@
+Start testing: Feb 25 18:07 CST
+----------------------------------------------------------
+1/1 Testing: test1
+1/1 Test: test1
+Command: "/home/zbb/dev/cpp/HangMan/build/runUnitTests"
+Directory: /home/zbb/dev/cpp/HangMan/build
+"test1" start time: Feb 25 18:07 CST
+Output:
+----------------------------------------------------------
+-------------
+|           |
+            |
+            |
+            |
+            |
+            |
+            |
+            |
+            |
+oblately
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"test1" end time: Feb 25 18:07 CST
+"test1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 25 18:07 CST

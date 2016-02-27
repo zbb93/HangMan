@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall   CMakeFiles/runUnitTests.dir/test/SecretWordTest.cpp.o  -o runUnitTests -rdynamic -lgtest -lgtest_main 
