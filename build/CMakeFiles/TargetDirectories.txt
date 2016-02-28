@@ -1,2 +1,0 @@
-/home/zbb/dev/cpp/HangMan/build/CMakeFiles/runUnitTests.dir
-/home/zbb/dev/cpp/HangMan/build/CMakeFiles/HangMan.dir

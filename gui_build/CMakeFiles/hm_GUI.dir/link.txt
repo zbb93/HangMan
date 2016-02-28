@@ -1,1 +1,0 @@
-/usr/bin/c++   -g -Wall -fPIC   CMakeFiles/hm_GUI.dir/src/HangManGUI.cpp.o CMakeFiles/hm_GUI.dir/src/HangMan.cpp.o CMakeFiles/hm_GUI.dir/src/Man.cpp.o CMakeFiles/hm_GUI.dir/hm_GUI_automoc.cpp.o  -o hm_GUI -rdynamic /usr/lib/libQt5Widgets.so.5.5.1 /usr/lib/libQt5Gui.so.5.5.1 /usr/lib/libQt5Core.so.5.5.1 

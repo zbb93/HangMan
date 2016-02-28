@@ -1,1 +1,0 @@
-/usr/bin/c++   -g -Wall   CMakeFiles/HangMan.dir/src/main.cpp.o CMakeFiles/HangMan.dir/src/HangMan.cpp.o CMakeFiles/HangMan.dir/src/Man.cpp.o  -o HangMan -rdynamic 
