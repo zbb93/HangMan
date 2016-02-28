@@ -29,3 +29,7 @@
 
 #YCM Configs
 .ycm*
+
+#Build directories
+build/
+gui_build/
