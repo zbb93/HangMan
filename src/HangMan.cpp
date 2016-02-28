@@ -126,3 +126,11 @@ bool HangMan::isGuessValid(char guess) {
   } 
   return true;
 }
+
+void HangMan::guessSlot(char guess) {
+  
+}
+
+void HangMan::updateDisplay() {
+  
+}
