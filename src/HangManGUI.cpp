@@ -1,30 +1,18 @@
-#include <QtWidgets>
+#include <gtkmm.h>
+#include <HangMan.h>
+#include <Man.h>
 
 int main(int argc, char** argv) {
   int WIDTH = 250;
   int HEIGHT = 150;
+  Man mn;
+  HangMan hm(mn, 1);
+  auto app = Gtk::Application::create(argc, argv,
+      "HangMan");
+  Gtk::Window window;
+  window.set_default_size(200, 200);
 
-  int screenWidth;
-  int screenHeight;
+  return app -> run(window);
 
-  int x, y;
 
-  QApplication app(argc, argv);
-
-  QWidget window;
-
-  QDesktopWidget* desktop = QApplication::desktop();
-
-  screenWidth = desktop -> width();
-  screenHeight = desktop -> height();
-
-  x = (screenWidth - WIDTH) / 2;
-  y = (screenHeight - HEIGHT) / 2;
-
-  window.resize(WIDTH, HEIGHT);
-  window.move(x, y);
-  window.setWindowTitle("Hangman");
-  window.show();
-
-  return app.exec();
 }

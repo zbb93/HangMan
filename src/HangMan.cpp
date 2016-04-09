@@ -4,9 +4,11 @@
 
 #include <ctime>
 #include <cstdlib>
+#include <cstring>
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <errno.h>
 #include "../include/HangMan.h"
 
 HangMan::HangMan(Man mn, int difficulty) {
@@ -75,10 +77,15 @@ void HangMan::displayPlatform() {
 std::string HangMan::selectWord(int difficulty) {
   std::srand(time(0));
   std::vector<std::string> words;
-  std::ifstream file("../resources/word_list.txt");
-  std::string line;
-  while (std::getline(file, line)) {
-    words.push_back(line);
+  std::ifstream file("../../resources/words.txt");
+  if (!file) {
+    std::cout << "Error reading file!" << std::endl;
+    std::cerr << "Error: " << std::strerror(errno);
+  } else { 
+    std::string line;
+    while (std::getline(file, line)) {
+      words.push_back(line);
+    }
   }
   return words[std::rand() % words.size()]; 
 }
@@ -127,10 +134,3 @@ bool HangMan::isGuessValid(char guess) {
   return true;
 }
 
-void HangMan::guessSlot(char guess) {
-  
-}
-
-void HangMan::updateDisplay() {
-  
-}

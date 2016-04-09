@@ -33,3 +33,4 @@
 #Build directories
 build/
 gui_build/
+cli_build/

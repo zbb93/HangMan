@@ -9,22 +9,14 @@
 #include "Man.h"
 #include <string>
 #include <vector>
-#include <QObject>
 
-class HangMan : public QObject {
-  Q_OBJECT
+class HangMan {
 public:
    HangMan(Man mn, int difficulty);
   void displayPlatform();
   std::string getSecretWord();
   void guess(char guess);
   bool victory();
-
-public slots: 
-  void guessSlot(char guess);
-
-signals:
-  void updateDisplay();
     
 private:
     Man man;
